@@ -1,7 +1,6 @@
 from flask import Flask
 import json
 import MySQLdb
-#trial
 
 db=MySQLdb.connect('localhost','impk','Littleboy0@','WEATHER')
 c=db.cursor()
