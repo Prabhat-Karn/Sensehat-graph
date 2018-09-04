@@ -8,7 +8,7 @@ c.execute('select * from WEATHER limit 100')
 a = c.fetchall()
 db.close
 app=Flask(__name__)
-@app.route('/')
+@app.route('/') # defining route --- @app.route('/home') goes to home page
 def hello_world():
 	rtn = ''
 	h=0;
